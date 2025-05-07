@@ -43,6 +43,9 @@ docker-compose run web python manage.py migrate
 ```bash
 python manage.py test app
 ```
+В будущем для масштабируемости можно перейти на pytest с фикстурами.
+
+---
 
 ## Команды бота
 
